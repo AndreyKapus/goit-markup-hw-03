@@ -1,0 +1,277 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --hero-title-color: #ffffff;
+  --accent-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* body {
+  margin: 0;
+  color: var(--primary-text-color);
+  background-color: var(--hero-title-color);
+
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+}
+/* logo */
+.logo {
+  color: var(--title-text-color);
+  font-family: raleway;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-item {
+  color: var(--accent-color);
+}
+
+/* site-nav */
+
+.site-nav {
+  list-style: none;
+}
+
+.site-nav-link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus,
+.site-nav-link.curent {
+  color: var(--accent-color);
+}
+
+/* contacts */
+
+.site-contacts {
+  list-style: none;
+}
+
+.site-contacts .link,
+.site-contacts .tel {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-contacts .link:hover,
+.site-contacts .link:focus,
+.site-contacts .tel:hover,
+.site-contacts .tel:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--accent-background-color);
+}
+
+/* Hero buton */
+
+.hero-title {
+  color: var(--hero-title-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--hero-title-color);
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* преимущества */
+
+.list {
+  list-style: none;
+}
+
+.benefits-title {
+  display: none;
+}
+
+.benefits-subtitle {
+  color: var(--title-text-color);
+
+  font-size: 14px;
+  line-height: 1.7;
+
+  text-transform: uppercase;
+}
+
+/* чем мы занимаемся */
+
+.feature-title,
+.team-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* наша команда */
+
+.team-title {
+  color: var(--title-text-color);
+}
+
+.team-subtitle {
+  color: var(--title-text-color);
+}
+
+.team-contant {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team {
+  background-color: var(--secondary-background-color);
+}
+
+.card-list {
+  background-color: var(--hero-title-color);
+}
+
+/* Футер */
+
+.footer {
+  background-color: var(--accent-background-color);
+}
+
+.footer .logo {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--hero-title-color);
+}
+
+.logo-item {
+  color: var(--accent-color);
+}
+
+.adress {
+  color: var(--hero-title-color);
+
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer .mail:hover,
+.footer .mail:focus {
+  color: var(--accent-color);
+}
+
+.footer .tel:hover,
+.footer .tel:focus {
+  color: var(--accent-color);
+}
+
+.footer .mail,
+.tel {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: 14px;
+  line-height: 1.17;
+}
+
+.mail,
+.tel {
+  text-decoration: none;
+}
+
+/* Portfolio */
+
+.portfolio-title {
+  display: none;
+}
+
+/* Кнопки */
+
+.button-list {
+  list-style: none;
+}
+
+.button-item {
+  color: var(--title-text-color);
+  cursor: pointer;
+  background-color: var(--secondary-background-color);
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.button-item:focus,
+.button-item:hover {
+  color: var(--hero-title-color);
+  background-color: var(--accent-color);
+}
+
+/* Карточки */
+
+.card-list {
+  list-style: none;
+}
+
+.card-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.87;
+}

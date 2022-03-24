@@ -73,6 +73,10 @@ html {
 
 .site-contacts {
   list-style: none;
+  display: inline-block;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .site-contacts .link,
@@ -97,9 +101,9 @@ html {
 
 .hero {
   background-color: var(--accent-background-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-
-/* Hero buton */
 
 .hero-title {
   color: var(--hero-title-color);
@@ -110,8 +114,13 @@ html {
   text-align: center;
   letter-spacing: 0.06em;
 
+  margin-top: 0px;
+  margin-bottom: 30px;
+
   text-transform: uppercase;
 }
+
+/* Hero buton */
 
 .hero-button {
   color: var(--hero-title-color);
@@ -126,12 +135,20 @@ html {
   padding-right: 32px;
   padding-top: 10px;
   padding-bottom: 10px;
+
+  margin-bottom: 294px;
+}
+
+.feature {
+  margin-bottom: 188px;
 }
 
 /* преимущества */
 
 .list {
   list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .benefits-title {
@@ -141,13 +158,24 @@ html {
 .benefits-subtitle {
   color: var(--title-text-color);
 
+  margin-top: 0px;
+  margin-bottom: 26px;
+
   font-size: 14px;
   line-height: 1.7;
 
   text-transform: uppercase;
 }
 
+.benefits {
+  margin-bottom: 94px;
+}
+
 /* чем мы занимаемся */
+
+.feature-title {
+  margin-bottom: 50px;
+}
 
 .feature-title,
 .team-title {
@@ -157,6 +185,10 @@ html {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+
+.feature-title {
+  margin-bottom: 50px;
 }
 
 /* наша команда */
@@ -177,6 +209,19 @@ html {
 
 .team {
   background-color: var(--secondary-background-color);
+}
+
+.team-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.team-pct {
+  margin-bottom: 50px;
+}
+
+.team-subtitle {
+  margin-bottom: 10px;
 }
 
 .card-list {

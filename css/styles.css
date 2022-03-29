@@ -31,7 +31,11 @@ html {
   font-family: roboto, sans-serif;
   font-size: 16px;
 }
+
+/* main-nav */
+
 /* logo */
+
 .logo {
   color: var(--title-text-color);
   font-family: raleway;
@@ -49,7 +53,12 @@ html {
 /* site-nav */
 
 .site-nav {
+  display: flex;
   list-style: none;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .site-nav-link {
@@ -71,11 +80,18 @@ html {
 /* contacts */
 
 .site-contacts {
-  list-style: none;
-  display: inline-block;
+  display: flex;
 }
 
-.site-contacts .link,
+.site-contacts .list + .list {
+  margin-left: 50px;
+}
+
+.site-contacts {
+  list-style: none;
+}
+
+.site-contacts .mail,
 .site-contacts .tel {
   color: var(--primary-text-color);
 
@@ -86,8 +102,8 @@ html {
   text-decoration: none;
 }
 
-.site-contacts .link:hover,
-.site-contacts .link:focus,
+.site-contacts .mail:hover,
+.site-contacts .mail:focus,
 .site-contacts .tel:hover,
 .site-contacts .tel:focus {
   color: var(--accent-color);
@@ -137,6 +153,18 @@ html {
 }
 
 /* преимущества */
+
+.benefits-list {
+  display: flex;
+}
+
+.benefits-item {
+  width: 270px;
+}
+
+.benefits-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .benefits-list {
   margin-top: 0px;
@@ -190,6 +218,17 @@ html {
   margin-bottom: 50px;
 }
 
+.feature-list {
+  display: flex;
+}
+
+.feature-pct {
+  margin-right: 30px;
+}
+
+.feature-pct:nth-last-child(-n + 1) {
+  margin-right: 0px;
+}
 /* наша команда */
 
 .team-title {

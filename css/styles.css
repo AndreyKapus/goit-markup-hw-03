@@ -32,6 +32,10 @@ html {
   font-size: 16px;
 }
 
+.list {
+  list-style: none;
+}
+
 /* ------------------main-nav------------------- */
 
 .main-nav {
@@ -44,6 +48,9 @@ html {
 }
 
 /* ------------------------logo------------------- */
+.header {
+  border: 1px solid #ECECEC;
+}
 
 .logo {
   color: var(--title-text-color);
@@ -174,6 +181,7 @@ html {
 
 .benefits-list {
   display: flex;
+  justify-content: center;
 }
 
 .benefits-item {
@@ -186,7 +194,9 @@ html {
 
 .benefits-list {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 94px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .benefits-title {
@@ -205,12 +215,13 @@ html {
   text-transform: uppercase;
 }
 
-/*----------- чем мы занимаемся ---------------*/
-
-.section {
+.benefits-text {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+/*----------- чем мы занимаемся ---------------*/
+
 
 .feature-list {
   margin-top: 0px;
@@ -238,6 +249,10 @@ html {
 
 .feature-list {
   display: flex;
+  justify-content: center;
+
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .feature-pct {
@@ -250,12 +265,20 @@ html {
 
 /* --------------наша команда---------------- */
 
-.team-list {
-  display: flex;
-  text-align: center;
+.team-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
-.card-list:not(:last-child) {
+.team-list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  padding-left: 0px;
+}
+
+.team-card-list:not(:last-child) {
 margin-right: 30px;
 }
   
@@ -282,20 +305,15 @@ margin-right: 30px;
   padding-bottom: 30px;
 }
 
-.team-title {
-  margin-top: 0px;
-  margin-bottom: 50px;
-}
-
 .team-pct {
   margin-bottom: 30px;
 }
 
-.card-list {
+.team-card-list {
   background-color: var(--hero-title-color);
 }
 
-/* Футер */
+/*---------------- Футер -------------*/
 
 .footer {
   background-color: var(--accent-background-color);
@@ -379,13 +397,13 @@ margin-right: 30px;
   list-style: none;
 }
 
-/* Portfolio */
+/* --------------Portfolio -----------------*/
 
 .portfolio-title {
   display: none;
 }
 
-/* Кнопки */
+/* -------------Кнопки ---------------*/
 
 .button-list {
   display: flex;
@@ -428,7 +446,7 @@ margin-right: 30px;
   background-color: var(--accent-color);
 }
 
-/* Карточки */
+/* ---------Портфолио - карточки-------- */
 
 .card-list {
   display: flex;
@@ -443,6 +461,9 @@ margin-right: 30px;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
 }
 
 .card-item:nth-child(3n) {
@@ -468,6 +489,7 @@ margin-right: 30px;
 
   margin-top: 0px;
   margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 .card-text {
@@ -476,6 +498,8 @@ margin-right: 30px;
 
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: 24px;
+  padding-bottom: 20px;
 }
 
 .section {

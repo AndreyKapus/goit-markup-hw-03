@@ -17,11 +17,18 @@ html {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.section {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 * body {
@@ -72,7 +79,17 @@ html {
   display: flex;
   list-style: none;
   margin-left: 93px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
 }
+
+.site-nav-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -106,6 +123,9 @@ html {
 
 .site-contacts {
   display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
 }
 
 .site-contacts .list + .list {
@@ -125,6 +145,10 @@ html {
   line-height: 1.14px;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-contacts .mail:hover,
@@ -153,9 +177,12 @@ html {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  width: 696px;
 
   margin-top: 0px;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 
   text-transform: uppercase;
 }
@@ -179,6 +206,7 @@ html {
 
 /* -----------------преимущества ---------------*/
 
+
 .benefits-list {
   display: flex;
   justify-content: center;
@@ -194,7 +222,7 @@ html {
 
 .benefits-list {
   margin-top: 0px;
-  margin-bottom: 94px;
+  margin-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -218,10 +246,15 @@ html {
 .benefits-text {
   margin-top: 0px;
   margin-bottom: 0px;
+
+  line-height: 1.71;
 }
 
 /*----------- чем мы занимаемся ---------------*/
 
+.feture {
+  padding-top: 0px;
+}
 
 .feature-list {
   margin-top: 0px;
@@ -249,7 +282,6 @@ html {
 
 .feature-list {
   display: flex;
-  justify-content: center;
 
   padding-left: 0px;
   padding-right: 0px;
@@ -270,11 +302,17 @@ html {
   margin-bottom: 50px;
 }
 
+.team {
+  background-color: var(--secondary-background-color);
+}
+
 .team-list {
   display: flex;
   justify-content: center;
   text-align: center;
-
+ 
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding-left: 0px;
 }
 
@@ -302,7 +340,6 @@ margin-right: 30px;
   line-height: 1.18;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 30px;
 }
 
 .team-pct {
@@ -311,12 +348,17 @@ margin-right: 30px;
 
 .team-card-list {
   background-color: var(--hero-title-color);
+
+  padding-bottom: 30px;
 }
 
 /*---------------- Футер -------------*/
 
 .footer {
   background-color: var(--accent-background-color);
+
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .logo {
@@ -327,7 +369,6 @@ margin-right: 30px;
 
   margin-top: 0px;
   margin-bottom: 20px;
-  padding-top: 60px;
 }
 
 .logo-item {
@@ -378,10 +419,6 @@ margin-right: 30px;
 
 .footer .mail {
   margin-bottom: 9px;
-}
-
-.footer .tel {
-  padding-bottom: 60px;
 }
 
 .mail,
@@ -502,9 +539,4 @@ margin-right: 30px;
   padding-bottom: 20px;
 }
 
-.section {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
